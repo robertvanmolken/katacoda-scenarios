@@ -22,4 +22,3 @@ The available environment includes the following software tools:
 * Maven
 * Docker
 * Kubectl
-* Eclipse Ché (browser IDE)
