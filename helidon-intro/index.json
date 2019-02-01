@@ -1,0 +1,26 @@
+{
+  "title": "The Project Helidon introduction",
+  "description": "Learn how to reactively program microservices that run on a fast web core powered by Netty using project Helidon",
+  "difficulty": "beginner",
+  "time": "45 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Creating your first project",
+        "text": "01-first-project.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}
