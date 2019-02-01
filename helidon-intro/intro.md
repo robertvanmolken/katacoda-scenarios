@@ -1,4 +1,4 @@
-# Welcome to your the Project Helidon scenario!
+# Welcome to your Project Helidon scenario!
 
 In this scenario you will learn how to reactively program microservices that run on a fast web core using project Helidon.  
 Since Helidon is just a collection of libraries running on a fast Netty core, there is no extra overhead or bloat.
