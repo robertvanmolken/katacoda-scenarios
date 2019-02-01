@@ -16,13 +16,7 @@ On top of these components Helidon supports the MicroProfile family of APIs, inc
 
 Let's start by using Helidon SE and creating our first project. Issue the following command: 
 
-`mvn archetype:generate -DinteractiveMode=false \
-    -DarchetypeGroupId=io.helidon.archetypes \
-    -DarchetypeArtifactId=helidon-quickstart-se \
-    -DarchetypeVersion=0.11.0 \
-    -DgroupId=io.helidon.examples \
-    -DartifactId=quickstart-se \
-    -Dpackage=io.helidon.examples.quickstart.se`
-` {{execute}}
+`mvn archetype:generate -DinteractiveMode=false -DarchetypeGroupId=io.helidon.archetypes -DarchetypeArtifactId=helidon-quickstart-se -DarchetypeVersion=0.11.0 -DgroupId=io.helidon.examples -DartifactId=quickstart-se -Dpackage=io.helidon.examples.quickstart.se` {{execute}}
 
-The archetype generates a Maven project in your current directory (for example, `quickstart-se`). Change into this directory using `cd quickstart-*` {{execute}}
+The archetype generates a Maven project in your current directory (for example, `quickstart-se`). Change into this directory using command:
+ `cd quickstart-*` {{execute}}
