@@ -18,7 +18,6 @@ Helidon supports health checks, metrics, tracing and fault tolerance and easily 
 
 ## Environment
 The available environment includes the following software tools: 
-* Docker
 * OpenJDK
 * Maven
 * Docker

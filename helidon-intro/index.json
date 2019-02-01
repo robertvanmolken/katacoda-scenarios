@@ -11,7 +11,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "credits": "https://github.com/robertvanmolken",
+      "code": "install_helidon.sh"
     },
     "finish": {
       "text": "finish.md"
