@@ -13,15 +13,15 @@
     "intro": {
       "text": "intro.md",
       "credits": "https://github.com/oracle/helidon",
-      "code": "install_helidon.sh"
+      "courseData": "install_helidon.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {    
-    "uilayout": "editor-terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n~~~ Installing Helidon prerequisites ~~\r\n"
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n~~~ Installing Helidon prerequisites ~~\r\n"
   },
   "backend": {
     "imageid": "kubernetes"
