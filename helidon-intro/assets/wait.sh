@@ -21,7 +21,7 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Started"
+  echo "Updated package list"
   echo -n "Installing"
   while true; do 
     sudo grep -i "done" /root/install-finished &> /dev/null
@@ -37,7 +37,7 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Installed"
+  echo "Installed prerequisites"
 }
 
 show_progress
