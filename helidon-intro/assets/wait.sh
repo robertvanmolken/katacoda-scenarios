@@ -37,7 +37,6 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Installed"
   echo -n "Installing Maven"
   while true; do 
     sudo grep -i "done" /root/install-finished &> /dev/null
