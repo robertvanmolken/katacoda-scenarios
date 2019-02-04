@@ -13,7 +13,8 @@
     "intro": {
       "text": "intro.md",
       "credits": "https://github.com/oracle/helidon",
-      "code": "install_helidon.sh"
+      "courseData": "install_helidon.sh",
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
