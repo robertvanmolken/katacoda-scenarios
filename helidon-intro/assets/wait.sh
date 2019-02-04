@@ -22,7 +22,23 @@ show_progress()
   printf "    \b\b\b\b"
   echo ""
   echo "Updated package list"
-  echo -n "Installing"
+  echo -n "Installing JDK 8"
+  while true; do 
+    sudo grep -i "done" /root/java-finished &> /dev/null
+    if [[ "$?" -ne 0 ]]; then     
+      temp="${spinstr#?}"
+      printf " [%c]  " "${spinstr}"
+      spinstr=${temp}${spinstr%"${temp}"}
+      sleep "${delay}"
+      printf "\b\b\b\b\b\b"
+    else
+      break
+    fi
+  done
+  printf "    \b\b\b\b"
+  echo ""
+  echo "Installed"
+  echo -n "Installing Maven"
   while true; do 
     sudo grep -i "done" /root/install-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
