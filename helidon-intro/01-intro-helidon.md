@@ -15,3 +15,4 @@ This means you can choose from one of two programming models:
 
 * **Helidon MP**: a more declarative model that supports the MicroProfile family of APIs. This will be familiar to Java EE developers.
 
+To continue to the next step please wait till the installation of the prerequisites is finished.
