@@ -1,1 +1,1 @@
-sudo grep -i "done" /root/maven-finished
+[ -f /root/install-finished ] && echo "done"
