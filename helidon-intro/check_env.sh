@@ -1,0 +1,1 @@
+sudo grep -i "done" /root/maven-finished

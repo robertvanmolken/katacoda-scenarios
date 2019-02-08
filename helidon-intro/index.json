@@ -6,8 +6,13 @@
   "details": {
     "steps": [
       {
-        "title": "Creating your first project",
-        "text": "01-first-project.md"
+        "title": "Preparing your environment",
+        "text": "01-intro-helidon.md",
+        "verify": "check_env.sh"
+      },
+      {
+        "title": "Create your first project",
+        "text": "02-first-project.md"
       }
     ],
     "intro": {

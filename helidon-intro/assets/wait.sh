@@ -39,7 +39,7 @@ show_progress()
   echo ""
   echo -n "Installing Maven"
   while true; do 
-    sudo grep -i "done" /root/install-finished &> /dev/null
+    sudo grep -i "done" /root/maven-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
