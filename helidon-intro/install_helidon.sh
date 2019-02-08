@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 apt update 1> /dev/null 2> /dev/null \
-&& echo "done" >> /root/update-finished \
+&& echo "done" >> /home/update-finished \
 && apt install openjdk-8-jdk -y \
-&& echo "done" >> /root/java-finished \
+&& echo "done" >> /home/java-finished \
 && apt install maven -y \
-&& echo "done" >> /root/maven-finished \
-&& echo "done" >> /root/install-finished
+&& echo "done" >> /home/maven-finished \
+&& echo "done" >> /home/install-finished

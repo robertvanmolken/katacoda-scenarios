@@ -8,7 +8,7 @@ show_progress()
   local spinstr='\|/-'
   local temp
   while true; do 
-    sudo grep -i "done" /root/update-finished &> /dev/null
+    sudo grep -i "done" /home/update-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
@@ -24,7 +24,7 @@ show_progress()
   echo "Updated package list"
   echo -n "Installing JDK 8"
   while true; do 
-    sudo grep -i "done" /root/java-finished &> /dev/null
+    sudo grep -i "done" /home/java-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
@@ -39,7 +39,7 @@ show_progress()
   echo ""
   echo -n "Installing Maven"
   while true; do 
-    sudo grep -i "done" /root/maven-finished &> /dev/null
+    sudo grep -i "done" /home/maven-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
