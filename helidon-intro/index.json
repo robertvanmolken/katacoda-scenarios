@@ -7,12 +7,12 @@
     "steps": [
       {
         "title": "Preparing your environment",
-        "text": "01-intro-helidon.md",
-        "verify": "check_env.sh"
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
       },
       {
         "title": "Create your first project",
-        "text": "02-first-project.md"
+        "text": "step2.md"
       }
     ],
     "intro": {
