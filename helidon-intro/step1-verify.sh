@@ -1,1 +1,1 @@
-[ -f /root/install-finished ] && echo "done"
+[ -f /home/install-finished ] && echo "done"
