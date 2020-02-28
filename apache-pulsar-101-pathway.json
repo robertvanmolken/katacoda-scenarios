@@ -1,5 +1,11 @@
 {
   "title": "Apache Pulsar 101",
   "description": "This course includes several scenarios to get you up to speed with Pulsar",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "pulsar-basics",
+      "title": "Learn the basics of Apache Pulsar",
+      "description": "In this scenario we are going over the basics of Apache Pulsar by setting up our first cluster"
+    }
+  ]
 }
