@@ -29,6 +29,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "pulsar:2.5"
+    "imageid": "java8"
   }
 }
