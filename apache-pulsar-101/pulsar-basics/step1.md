@@ -16,4 +16,4 @@ tar xvfz apache-pulsar-2.5.0-bin.tar.gz
 cd apache-pulsar-2.5.0
 ```{{execute}}
 
-Verify if pulsar is installed by listing (`ls`{{execute}}) the directory.
+Verify if pulsar is installed by listing the directory using `tree -L 1`{{execute}}.
