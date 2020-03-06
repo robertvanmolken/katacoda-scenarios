@@ -11,7 +11,7 @@ wget https://archive.apache.org/dist/pulsar/pulsar-2.5.0/apache-pulsar-2.5.0-bin
 Unpack the downloaded archive by running the following commands:
 
 ```
-tar xvfz apache-pulsar-2.5.0-bin.tar.gz
+tar xfz apache-pulsar-2.5.0-bin.tar.gz
 
 cd apache-pulsar-2.5.0
 ```{{execute}}
