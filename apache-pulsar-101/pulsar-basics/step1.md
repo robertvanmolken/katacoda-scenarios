@@ -8,6 +8,5 @@ Start the `pulsar-standalone` docker image by running the following command:
 docker run -d \
 -p 6650:6650 -p 8080:8080 \
 -v $PWD/data:/pulsar/data \
---name pulsar
-apachepulsar/pulsar-standalone
+--name pulsar apachepulsar/pulsar-standalone
 ```{{execute}}
